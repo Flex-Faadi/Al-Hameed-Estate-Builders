@@ -1,0 +1,146 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: steelblue;
+}
+.signUpForm{
+    width: 500px;
+    border: none;
+    box-shadow: 0 8px 6px -6px black;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: linear-gradient(rgb(250, 200, 63),rgba(194, 43, 63, 0.918));
+    position: absolute;
+    left: 6%;
+    z-index: 2;
+    
+}
+.main img{
+    position: absolute;
+    top: 30%;
+    bottom: 0px;
+    left: 40%;
+    z-index: 1;
+    width: auto;
+}
+#idTwo{
+    color: green;
+}
+form input{
+    display: block;
+    margin-top: 8px;
+    padding: 12px 7px;
+    width: 320px;
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+    outline-style: none;
+    border-radius: 5px;
+    border-top-right-radius: 8px;
+    color: rgb(77, 44, 44);
+}
+.gender input{
+    display: inline-block;
+    width: auto;
+}
+#selection{
+    width: 200px;
+    padding: 7px 5px;
+    margin-top: 8px;
+    outline-style: none;
+    background: rgb(37, 37, 36);
+    color:rgb(190, 190, 190);
+    border-radius: 20px;
+}
+option{
+    padding: 7px 2px;
+    font-size: 18px;
+    background-color: rgb(231, 169, 52);
+    
+}
+textarea{
+    font-size: 16px;
+    outline: none;
+}
+.btn{
+    margin-top: 10px;
+    margin-left: 200px;
+}
+.btn button{
+    width: 120px;
+    padding: 10px 10px;
+    font-size: 16px;
+    background-color: rgb(231, 169, 52);
+    color: rgb(14, 9, 9);
+    outline-style: none;
+    border: 2px solid rgb(231, 169, 52);
+}
+button:hover{
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+outline:1px solid rgb(231, 169, 52);
+}
+button:focus{
+    color: blue;
+    font-weight: bold;
+}
+.signIn{
+    margin-top: 10px;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+span a{
+    color: rgb(0, 23, 97);
+}
+
+
+@media screen and (max-width: 800px) {
+    .signUpForm{
+        width: 370px;
+        box-shadow: 0 8px 6px -6px black;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        position: static;
+        
+    }
+    form input{
+        display: block;
+        margin-top: 5px;
+        padding: 6px 4px;
+        width: 240px;
+        font-size: 14px;
+        font-weight: bolder;
+    }
+    #selection{
+        width: 100px;
+        padding: 5px 3px;
+        margin-top: 5px;
+    }
+    option{
+        padding: 74px 2px;
+        font-size: 14px;
+        background-color: rgb(231, 169, 52);
+        
+    }
+    .main img{
+        position: absolute;
+        top: 700px;
+        bottom: 0px;
+        left: 0px;
+        width: 300px;
+    }
+    
+}

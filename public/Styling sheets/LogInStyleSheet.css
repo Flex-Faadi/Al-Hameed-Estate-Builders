@@ -1,0 +1,187 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('https://images.unsplash.com/photo-1534351764645-a2e5e5362c6a?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+    background-size: cover;
+}
+*{
+    font-family: Courier, Monaco, monospace;
+}
+/* HEADER STYLING */
+.subTags ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.subTags{
+    margin: auto;
+    margin-bottom: 10px;
+    /* padding-bottom: 0px; */
+}
+.head header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(221, 162, 35);
+}
+.subTags ul li{
+    list-style-type: none;
+    padding-right: 70px;
+    padding-top: 14px;
+    padding-bottom: 5px;
+}
+.subTags ul li a{
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bolder;
+    color: black;
+}
+.subTags ul li a:hover{
+    border-bottom: 4px solid rgb(195, 1, 1);
+}
+.myHeader{
+    padding-top: 0px;
+}
+.logo-image{
+    margin-left: 10px;
+}
+.logo-image img{
+    display: inline;
+    height: 70px;
+}
+.my-dropdown{
+    margin: 14px 20px;
+}
+#dropdownMenu2{
+   font-size: 20px;
+   font-weight: bolder;
+}
+.dropdown-menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: crimson;
+}
+/* HEADER STYLING END */
+
+.login_container{
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.col-one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.my-row{
+    max-width: 1000px;
+    padding: 10px 20px;
+    box-shadow: 0 10px 10px -4px;
+    background: linear-gradient(rgb(250, 200, 63),rgba(194, 43, 63, 0.918));
+    border-radius: 10px;
+}
+
+form{
+    width: 350px;
+    margin: 30px 0;
+}
+form input{
+    width: 100%;
+    padding: 12px 6px;
+    margin-bottom: 5px;
+    outline: none;
+    color: rgb(77, 44, 44);
+    text-transform: capitalize;
+    font-size: 18px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid #917b4c78;
+    font-weight: bolder;
+}
+form input:focus
+{
+    border-radius: 0px;
+    outline: 2px solid;
+    outline-style: solid;
+    outline-color: rgb(202, 151, 33);;
+}
+form button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 5px;
+    outline: none;
+    color: rgb(77, 44, 44);
+    font-size: 18px;
+    background-color: rgb(202, 151, 33);
+    border-radius: 15px;
+    border: 1px solid #917b4c78;
+}
+form button:hover{
+    color: white;
+    background-color: black;
+    outline-style: outset;
+    outline-color: rgb(202, 151, 33);
+    border-radius: 0px;
+}
+#myPara{
+    font-size: 14px;
+    color: rgb(202, 151, 33);;
+    font-weight: bolder;
+}
+#idTwo{
+    color: green;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+#Forg-pass{
+    text-align: end;
+}
+a{
+    text-decoration: none;
+}
+#myPara a{
+    color: rgb(22, 18, 18);
+}
+
+
+
+/* .......media query....... */
+@media screen and (max-width: 600px) {
+    .login_container{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .my-row{
+        max-width: 500px;
+    }
+    .my-row h1{
+        font-size: 28px;
+    }
+    form{
+        width: 300px;
+        margin: 30px 0;
+    }
+    form input{
+        width: 100%;
+        padding: 6px 5px;
+        margin-bottom: 6px;
+        font-size: 15px;
+    }
+    form button{
+        margin-top: 20px;
+        width: 100%;
+        padding: 5px 4px;
+        margin-bottom: 5px;
+        font-size: 15px;
+        border-radius: 10px;
+    }
+   
+}

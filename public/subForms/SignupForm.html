@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="../Styling sheets/SignUpFormStylesheet.css">
+    <link rel="icon" href="../Images/logoHeader.png" type="image/gif" sizes="32x32">
+</head>
+
+<body>
+    <div class="main">
+        <div class="flex-box-img">
+            <img src="../Images/background.svg" alt="image">
+        </div>
+
+        <br>
+        <div class="signUpForm">
+            <form action="">
+                <h1> <span>Sign</span><span id="idTwo">Up</span></h1>
+                <input type="text" name="" id="firstName" placeholder="Enter Your First Name" required>
+                <span id="spanOne"></span>
+                <input type="text" name="" id="lastName" placeholder="Enter Your Last Name" required>
+                <span id="spanTwo"></span>
+                <input type="email" name="" id="email" placeholder="Enter Your Email" required>
+                <span id="spanTheree"></span>
+                <input type="password" name="" id="pass" placeholder="Enter Your Password" required>
+                <input type="password" name="" id="ConPass" placeholder="Confirm Your Password" required>
+                <span>Select Your City:</span>
+                <select name="" id="selection">
+                    <option selected="selected" value="karachi">Karachi</option>
+                    <option value="Hyderabad">Hyderabad</option>
+                    <option value="Multan">Multan</option>
+                    <option value="Lahore">Lahore</option>
+                    <option value="Peshawar">Peshawar</option>
+                    <option value="Sialkot">Sialkot</option>
+                    <option value="Quetta">Quetta</option>
+                    <option value="Gujranwala">Gujranwala</option>
+                </select>
+                <div class="gender">
+                    <span>Gender :</span>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+                <input type="number" name="" id="num" placeholder="Enter Your Number" required>
+                <span id="spanForth"></span>
+                <br>
+                <span>Address:</span> <br>
+                <textarea name="" id="address" cols="40" rows="5" placeholder="Enter Your Address.."
+                    required></textarea>
+                <div class="btn">
+                    <button onclick="emptyFieldCheck()">Submit</button>
+                </div>
+            </form>
+            <div class="signIn">
+                <span>Do You Have An Account.? <a href="../subForms/LogInForm.html">Click Here To SignIn</a></span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <script src="../Js Scripts/app.js"></script>
+</body>
+
+</html>

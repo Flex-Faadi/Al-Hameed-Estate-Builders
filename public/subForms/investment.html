@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invetment</title>
+    <link rel="stylesheet" href="/Styling sheets/styleMain.css">
+    <script src="https://kit.fontawesome.com/c6dda38533.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="icon" href="/Images/logoHeader.png" type="image/gif" sizes="32x32">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyBcAmdCjd_9jx4W8lH0Q2yQSjfKllWH6wE",
+            authDomain: "al-hameed-estate-and-builders.firebaseapp.com",
+            databaseURL: "https://al-hameed-estate-and-builders-default-rtdb.firebaseio.com",
+            projectId: "al-hameed-estate-and-builders",
+            storageBucket: "al-hameed-estate-and-builders.appspot.com",
+            messagingSenderId: "827673022596",
+            appId: "1:827673022596:web:ba33e7bc0f28bfce1332d1"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+
+<body style="font-family: sans-serif;">
+    <i id="botTop" class="fas fa-chevron-up"></i>
+    <div class="head">
+        <!-- HEADER NAVBAR SECTION -->
+        <header>
+            <div class="logo-image">
+                <a href="../index.html"><img id="home" src="../Images/logoHeader.png" alt="logo" width="100px"></a>
+            </div>
+            <div class="subTags">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="houses.html">Houses</a></li>
+                    <li><a href="investment.html">Investment</a></li>
+                    <li><a href="aboutUs.html">About Us</a></li>
+                    <li><a r href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="dropdown my-dropdown">
+                <button disabled class="btn dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Accounts
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><a href="../subForms/LogInForm.html" target="blank"><button class="dropdown-item"
+                                type="button">Login</button></a>
+                    </li>
+                    <li><a href="../subForms/SignupForm.html" target="blank"><button class="dropdown-item"
+                                type="button">Signup</button></a></li>
+                </ul>
+            </div>
+        </header>
+    </div>
+
+
+
+    <div class="clearfix">
+        <div class="carousel">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../Images/carousel images/img_1.jpg" class="d-block w-100" alt="img">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Images/carousel images/img_2.jpg" class="d-block w-100" alt="img">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Images/carousel images/img_3.jpg" class="d-block w-100" alt="img">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Images/carousel images/img_4.jpg" class="d-block w-100" alt="img">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Images/carousel images/img_5.jpg" class="d-block w-100" alt="img">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </a>
+            </div>
+        </div>
+        <br><br>
+        <div class="investment_text">
+            <p>
+                Real estate investment in Pakistan can be a great way to build wealth and passive income. The growth of
+                the property market in the 7th most populous South Asian country depends on several factors. As such,
+                buyer’s interest, demand, property taxes, and legislation are, to name a few. No matter what the
+                situation is, an investor needs to stay well-informed about everything to make a sound decision.
+
+                Since a solid understanding of the market and research are two of the most important components of
+                investment in Pakistan’s property market, we are going to share unparalleled insights and in-depth
+                overviews of the buying trends in different cities of the Karachi City.
+                <br> <br>
+                So, keep reading to find out the top areas for real estate investment in Pakistan.
+            </p>
+            <h2>TOP AREAS FOR REAL ESTATE INVESTMENT IN KARACHI</h2>
+            <ul>
+                <li>Scheeme 33</li>
+                <li>Gulistan-e-Johar</li>
+                <li>North Karachi</li>
+                <li>Surjani Town</li>
+                <li>Defence-VIII</li>
+            </ul>
+            <img src="../Images/karachi_img.jpg" alt="img"> <label>Karachi is one of Pakistan’s largest real estate
+                markets</label>
+            <br><br>
+            <p>Karachi – the economic engine of Pakistan – boasts an incredibly significant position in the real estate
+                sector of the country. The city is mainly known for its diversity and for featuring a delightful mix of
+                high-end, middle, and low-income neighbourhoods. <br> <br>
+
+                The developing real estate product of the city primarily consists of high-rise apartments, but the city
+                isn’t short of options when it comes to finding a vacant piece of land or a house.
+
+            </p>
+
+            <span>
+                <h2>Scheme 33</h2>
+                Sitting on the edges of Karachi-Hyderabad Motorway, Scheme 33 maintains the top position when it comes
+                to buying properties in the city of lights. This popularity is mainly due to the affordable investment
+                options and planned communities that are made available to Karachiites. <br><br>
+
+                Proposed as a regulated housing program in 1971, Scheme 33, Karachi spans over an area of 26,026 acres,
+                and it is expected to execute around 137 housing schemes. Out of those 137 housing schemes, a few have
+                already been executed, developed, and populated with houses and apartments. <br><br>
+
+                For further guidance on whether you should consider investing in Scheme 33, Karachi, or somewhere else,
+                please navigate to our recently published analysis where we have listed the societies marked safe for
+                investment and discussed their prices as well.
+            </span>
+
+            <span>
+                <h2>Gulistan-e-Johar</h2>
+                hose looking for investment opportunities in Karachi’s real estate market also showed interest in
+                investing in Gulistan-e-Jauhar. It doesn’t come as something unexpected since this housing scheme has
+                always raked highly among the top searched areas for investment in Karachi. <br><br>
+
+                Expanding near the Jinnah International Airport, Gulistan-e-Jauhar is mainly known for featuring
+                affordable housing units and investment opportunities, along with standard infrastructure and amenities
+                ensuring a reasonable lifestyle. The abundant supply of residential utilities such as electricity,
+                water, and gas has made this project one of the most reliable developments in the city. <br><b></b>
+
+                In addition to basic residential facilities, Gulistan-e-Jauhar is also home to an abundance of
+                educational institutions, recreational facilities, sports complexes, parks, and commercial markets.
+            </span>
+
+            <span>
+                <h2>North Karachi</h2>
+                North Karachi Township is located on the northern edges of Karachi, past North Nazimabad. The town
+                comprises six sectors with a mix of residential and commercial real estate investment opportunities.
+                Let’s discuss the possibilities of buying a property in North Karachi in detail using the data we’ve
+                gathered <br><br>
+
+                Surrounded by prominent areas like Buffer Zone, New Karachi Town, Surjani Town, Naya Nazimabad,
+                Gulshan-e-Maymar, and North Nazimabad, North Karachi caters primarily to the low and middle-income
+                families of Karachi. They took up residence in the now densely packed society when it was mostly barren
+                lands. It is also known as North Karachi Township, and has 6 sectors, from Sector 7 up to Sector 12.
+                <br><br>
+
+                While North Karachi features both houses and flats, most apartment buildings have a commercial
+                storefront on the ground floor, with low-rise or mid-rise residential structures catering to both buyers
+                and renters. Prominent routes within the society include Shahrah-e-Usman and Shahrah-e-Noor Jahan, which
+                pass through the development and are also its commercial hubs. Chowrangis and Chowks, including Anda
+                Mor, Disco Mor, Nagan Chowrangi, Power House Chowrangi, and Saba Cinema Roundabout, play a major role in
+                the area for the locals, as these are the main places for trade and commerce with weekly area markets
+                providing all the essentials at affordable rates. <br><br>
+
+                Other prominent landmarks in or near the society include Hira Park, North Karachi Graveyard, Iqra
+                University’s (IU) North campus, North Karachi Gym, Club, & Swimming Pool, Tikon Park, Rashid Latif
+                Cricket Academy, and Aiwan-e-Tijarat-o-Sanat Hospital, along with campuses of several reputable schools
+                and colleges. Sakhi Hassan Graveyard, Manghopir Lake, Naya Nazimabad Cricket Ground, Sohrab Goth, North
+                Karachi’s Industrial Area, the University of Karachi (UoK), Manghopir Road, and the M-9
+                Karachi-Hyderabad Motorway are some of the other prominent landmarks near this residential community.
+                <br><br> <img src="../Images/propertyPrice.jpg" alt="img" width="80%">
+            </span>
+
+            <span>
+                <h2>Surjani Town</h2>
+                Surjani Town in District West is being pitched as a new avenue for investors or low- and middle-income
+                people who want to own a house. <br><br>
+
+                Surjani Town is one of the neighborhoods of Gadap Town, and if you look at the map, it is to the left of
+                Karachi spread over 6,600 acres of land that belongs to the Karachi Development Authority or KDA.
+                Surjani Town has 17 sectors in which 15 have been set aside for housing schemes that were launched by
+                the KDA in 1984. <br><b></b>
+
+                Real estate agents who work in the area find that they are mostly dealing with working class clients who
+                want to live in their own house and will buy plots that are 60, 80, and 120 square yards. <br><br>
+
+                “People mostly prefer 120 square yard plots for residential use so that is why prices have gone a bit
+                over a year in different sectors,” he said, naming Sectors L-2, L-4, L-5, L-6, L-7 and L-10. L-2, 5, 6,
+                7 have price tags of Rs3 million to Rs3.5 million. <br><br>
+
+                Some of these goths, however, were part of Karachi’s original list and have been documented by Perween
+                Rehman. The mapped goths include Brohi Goth, Saiful Marri Goth, Yousuf Goth, Dil Murad Khan Goth, and
+                Ayub Goth. <br><br>
+            </span>
+
+            <span>
+                <h2>Defence-Phase-VII</h2>
+                Properties for sale in DHA Defence, Karachi, have retained their position as one of the most popular and
+                safe options to secure your investment in Pakistan’s property market. It is no secret that the housing
+                projects executed by the Defence Housing Authority are considered among the most secure residential
+                areas across the country. Owing to the vigilant laws against expansion and encroachment, the housing
+                schemes in this area come with a by-default guarantee of appreciation.
+
+                <br><br>
+
+                Karachi’s Defence is mainly known for its near-perfect location where major arteries of the city are
+                stretched across the area, making it accessible from every corner of the city. It is situated in close
+                proximity to Clifton and Sea View. DHA Defence comprises several phases and each phase is known for its
+                unique offerings. <br><b></b>
+
+                Schools, hospitals, religious centres, malls, commercial markets, parks, and other such facilities that
+                elevate the standards of life are scattered everywhere in the community. Each phase of this area is
+                connected with the other, making it extremely easy for residents to navigate and avail the facilities of
+                nearby phases. <br><br>
+            </span>
+        </div>
+    </div>
+    <!-- FOOTER -->
+    <section class="footer-body">
+        <div class="footer-logo-image">
+            <img src="../Images/logoHeader.png" alt="logo" width="100px">
+        </div>
+        <footer>
+            <div class="left-social-side">
+                <h2>Our Social Media Links</h2>
+                <div class="social-content">
+                    <p>You can reach us through our social media accounts and we are really excited to be connected with
+                        you through these social media platforms and feel free to leave a message anytime,We are always
+                        Here to Respond you cheers.!</p>
+                    <div class="social-media-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="center-address-side">
+                <h2>Address</h2>
+                <div class="address-location">
+                    <a href="https://goo.gl/maps/1WbpMCS2jjmZrN1B9" target="blank"><i
+                            class="fas fa-map-marker-alt"></i></a>
+                    <span>North Karachi,Karachi,Pakistan</span> <br> <br>
+                    <i class="fas fa-phone"></i>
+                    <span>+92 3212296876</span> <br> <br>
+                    <i class="fab fa-whatsapp"></i>
+                    <span>+92 3174730736</span> <br> <br>
+                    <i class="far fa-envelope"></i>
+                    <span>AHEBuilders@gmail.com</span>
+                </div>
+            </div>
+
+            <div id="contact" class="right-contact-side">
+                <h2>Contact Us</h2>
+                <div class="contact-form">
+
+                    <div class="inp">
+                        <label for="clientName"> Your Name *
+                            <input type="text" name="name" id="clientName" required placeholder="Enter Your Full Name">
+                        </label> <br>
+
+                        <label for="clientEmail"> Enter Your Email *
+                            <input type="email" name="email" id="clientEmail" required placeholder="Enter Your Email">
+                        </label> <br>
+                        <label for="clientMessage"> Your Message * <br>
+                            <textarea name="message" id="clientMessage" cols="30" rows="4"></textarea>
+                        </label>
+                    </div>
+                    <button onclick="SaveData()">Submit</button>
+
+                </div>
+            </div>
+
+        </footer>
+        <div class="bottom">
+            <div class="bottom-content">
+                <span>© Al-Hameed Estate & Builders. All Rights Reserved. | Privacy Policy | Terms of
+                    Service</span>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script>
+        // Top To Bottom Script
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 300) {
+                    $('i').css({
+                        "opacity": "1", "pointer-events": "auto"
+                    });
+                } else {
+                    $('i').css({
+                        "opacity": "0", "pointer-events": "none"
+                    });
+                }
+            });
+            $('i').click(function () {
+                $('html').animate({ scrollTop: 0 }, 500);
+            });
+        });
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+        <script src="../Js Scripts/app.js"></script>
+</body>
+
+</html>
